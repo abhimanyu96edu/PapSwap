@@ -23,7 +23,7 @@ public class Papswap extends AppCompatActivity {
        // pg.show();
         mWebView = (WebView) findViewById(R.id.activity_main_webview);
         //mWebView.loadUrl("www.facebook.com/");
-        Toast.makeText(Papswap.this, "Loading Content..", Toast.LENGTH_LONG).show();
+        Toast.makeText(Papswap.this, "Loading Content.. Please Wait !!", Toast.LENGTH_LONG).show();
         if (isConnectedToInternet()) {
             // Run AsyncTask
             // Force links and redirects to open in the WebView instead of in a browser
@@ -38,7 +38,7 @@ public class Papswap extends AppCompatActivity {
 
             // Use remote resource
             mWebView.loadUrl("http://www.papswap.com/");
-
+            Toast.makeText(Papswap.this, "Loading Content.. Please Wait !!", Toast.LENGTH_LONG).show();
 //            pg.dismiss();
 //            pg.cancel();
 
