@@ -8,13 +8,13 @@ import android.widget.ProgressBar;
 
 
 public class SplashActivity extends ActionBarActivity {
-    //ProgressBar pb;
+    ProgressBar pb;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        //pb = (ProgressBar) findViewById(R.id.progressBar);
-        //pb.showContextMenu();   //check this warning
+        pb = (ProgressBar) findViewById(R.id.progressBar);
+        pb.showContextMenu();   //check this warning
         Thread thread = new Thread() {
             @Override
             public void run() {
