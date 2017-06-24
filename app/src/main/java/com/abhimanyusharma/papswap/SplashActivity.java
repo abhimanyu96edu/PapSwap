@@ -8,8 +8,9 @@ import android.support.v7.app.ActionBarActivity;
 import android.widget.ProgressBar;
 
 
-public class SplashActivity extends Activity {
+public class SplashActivity extends ActionBarActivity {
     ProgressBar pb;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,7 +21,7 @@ public class SplashActivity extends Activity {
             @Override
             public void run() {
                 try {
-                    sleep(4000);
+                    sleep(5000);
                     Intent i = new Intent(SplashActivity.this, FullscreenActivity.class);
                     startActivity(i);
 

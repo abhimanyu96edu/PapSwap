@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/papswap"
-    android:backgroundTint="@color/colorPrimary"
+    android:background="#ffffff"
     android:orientation="vertical"
     tools:context="com.abhimanyusharma.papswap.SplashActivity">
 
@@ -14,6 +13,11 @@
         android:layout_height="wrap_content"
         android:layout_weight="1">
 
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/papswap" />
     </LinearLayout>
 
     <LinearLayout
