@@ -31,13 +31,13 @@ import android.widget.Toast;
 public class FullscreenActivity extends Activity {
 
     private WebView mWebView;
-ProgressDialog pg;
+//ProgressDialog pg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fullscreen);
 
-        pg.show();
+//        pg.show();
         mWebView = (WebView) findViewById(R.id.activity_main_webview);
 
         Toast.makeText(FullscreenActivity.this, "Loading Content..", Toast.LENGTH_LONG).show();
@@ -53,8 +53,8 @@ ProgressDialog pg;
             // Use remote resource
             mWebView.loadUrl("http://www.papswap.com/");
 
-            pg.dismiss();
-            pg.cancel();
+//            pg.dismiss();
+//            pg.cancel();
 
             // Stop local links and redirects from opening in browser instead of WebView
             ///////////////mWebView.setWebViewClient(new MyAppWebViewClient());
