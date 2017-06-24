@@ -1,5 +1,6 @@
 package com.abhimanyusharma.papswap;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,7 +8,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.widget.ProgressBar;
 
 
-public class SplashActivity extends ActionBarActivity {
+public class SplashActivity extends Activity {
     ProgressBar pb;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

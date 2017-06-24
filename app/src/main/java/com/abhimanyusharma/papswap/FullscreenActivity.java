@@ -35,9 +35,9 @@ ProgressDialog pg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-pg.show();
         setContentView(R.layout.activity_fullscreen);
 
+        pg.show();
         mWebView = (WebView) findViewById(R.id.activity_main_webview);
 
         Toast.makeText(FullscreenActivity.this, "Loading Content..", Toast.LENGTH_LONG).show();
