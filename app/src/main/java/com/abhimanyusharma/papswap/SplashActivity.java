@@ -8,7 +8,7 @@ import android.widget.ProgressBar;
 
 
 public class SplashActivity extends ActionBarActivity {
-    ProgressBar pb;
+    //ProgressBar pb;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
