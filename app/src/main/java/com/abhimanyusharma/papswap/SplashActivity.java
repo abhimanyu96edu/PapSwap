@@ -19,7 +19,7 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    sleep(5000);
+                    sleep(4000);
                     Intent i = new Intent(SplashActivity.this, Papswap.class);
                     startActivity(i);
 
