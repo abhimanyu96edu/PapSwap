@@ -37,7 +37,7 @@ public class Papswap extends AppCompatActivity {
             webSettings.setDomStorageEnabled(true);
 
             // Use remote resource
-            mWebView.loadUrl("http://www.papswap.com/");
+            mWebView.loadUrl("http://www.papswap.in");
             Toast.makeText(Papswap.this, "Loading Content.. Please Wait !!", Toast.LENGTH_LONG).show();
 //            pg.dismiss();
 //            pg.cancel();
